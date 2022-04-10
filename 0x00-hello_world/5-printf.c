@@ -1,3 +1,6 @@
+#!/bin/bash
+gcc -E -o c
+
 #include <studio.h>
 
 /**
