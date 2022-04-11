@@ -1,15 +1,19 @@
 #include <stdio.h>
 /**
- * main - Entry poiny
+ * main - Entry point
  *
  * Description: Priny the lowercase  alphabet
- * Return: 0
+ * Return: Always 0 (Success/correct)
  */
 int main(void)
+
 {
-int c;
-for (c - 0; c < 26; ++c)
-putchar('a' + c);
+char c;
+
+for (c = 'a'; c <= 'z'; c++)
+{
+putchar(c);
+}
 
 putchar('\n');
 
