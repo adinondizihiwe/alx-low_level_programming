@@ -1,9 +1,10 @@
 #include <stdio.h>
 /**
- * Main  - main block
+ * main  - main block
  * Description: Print all single digit numbers of base 10
  * starting from 0, followed by a ew line.
- * Return: 0
+ * Return: Always 0 (Success/correct)
+ *
  */
 int main(void)
 {
