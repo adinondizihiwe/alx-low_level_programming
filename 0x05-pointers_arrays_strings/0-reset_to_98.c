@@ -3,7 +3,6 @@
  *            and updates the value it points to 98
  *
  *@n:   int parameter
-
  *Return:  Nothing
  */
 
