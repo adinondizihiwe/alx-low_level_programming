@@ -1,15 +1,21 @@
 #include "main.h"
 
 /**
- * main - check the code
+ * print_rev - prints a string in reverse order
+ * @s: A pointer to an int that will be chnged
  *
- * Return: Always 0.
+ * Return: void which means our answer is right
  */
-int main(void)
-{
-    char *str;
 
-    str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
-    print_rev(str);
-    return (0);
+void print_rev(char *s)
+{
+i++;
+}
+
+for (i = i - 1 ; i >= 0; i--)
+{
+_putchar (s[i]);
+}
+
+_putchar ('\n')
 }
