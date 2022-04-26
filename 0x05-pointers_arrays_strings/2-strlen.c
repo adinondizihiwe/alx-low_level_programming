@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * _strlen - length of a string
  * @s: A point to an int that will be changed/updated
@@ -15,5 +16,6 @@ while (s[u] != '\0')
 {
 u++;
 }
-
+return (u);
+}
 
