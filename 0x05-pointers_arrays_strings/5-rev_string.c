@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * rev_tring - prints a reverse string
+ * rev_string - prints a reverse string
  * @s: Apointer to an int that will be changed
  *
  * Return: void
@@ -27,7 +27,7 @@ for (i = 0; i < count - 1; i++)
 end_c++;
 }
 
-for (i = 0; i < count /2; i++)
+for (i = 0; i < count / 2; i++)
 {
 
 
